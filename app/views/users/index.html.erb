@@ -2,5 +2,17 @@
 
 
 <% @users.each do |user| %>
-  <%= user.first_name  %> <%= user.last_name %>
+<div class='well'>
+  <p>
+    <b>Name:</b> <%= user.first_name  %> <%= user.last_name %>
+  </p>
+
+  <p>
+    <b>Email:</b> <%= user.email %><br>
+  </p>
+  <p>
+    <b>Location:</b> <%= user.location %><br>
+  </p>
+</div>
+
 <% end %>
