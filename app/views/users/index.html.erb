@@ -1,0 +1,6 @@
+<% render '/shared/content_title', title:'Humans' %>
+
+
+<% @users.each do |user| %>
+  <%= user.first_name  %> <%= user.last_name %>
+<% end %>

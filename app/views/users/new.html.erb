@@ -1,0 +1,22 @@
+<% render '/shared/content_title', title:'Registration' %>
+
+
+<%= form_for @user do |f| %>
+  <%= f.label :name%>
+  <%= f.text_field :first_name %>
+
+  <%= f.label :last_name%>
+  <%= f.text_field :last_name%>
+
+  <%= f.label :location%>
+  <%= f.text_field :location%>
+
+  <%= f.label :email%>
+  <%= f.email_field :email%>
+
+  <%= f.label :num_dogs%>
+  <%= f.number_field :num_dogs %>
+  <!-- <input type="number" name="quantity" min="0" max="99"> -->
+
+  <%= f.submit 'Submit', class: 'btn btn-primary' %>
+<% end %>

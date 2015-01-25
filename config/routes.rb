@@ -1,3 +1,7 @@
 PostitTemplate::Application.routes.draw do
-  root to: 'posts#index'
+  root to: 'users#index'
+
+  resources :users
+
+
 end
