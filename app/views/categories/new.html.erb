@@ -1,0 +1,16 @@
+<h3>Add a new category</h3>
+
+<% if !@cat.errors.full_messages.empty? %>
+  <% @cat.errors.full_messages.each do |msg| %>
+    <div class='alert'>
+      <%= msg %>
+    </div>
+  <% end %>
+<% end %>
+
+<%= form_for @cat do |f| %>
+  <%= f.label 'Category name' %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.submit%>
+<% end %>

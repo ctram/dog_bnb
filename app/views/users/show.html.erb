@@ -1,0 +1,14 @@
+<h3>These are <%= @user.first_name + ' ' + @user.last_name + "'s posts:" %>
+<br><BR>
+
+<% @posts.reverse.each do |post| %>
+  <div class='well'>
+    <h4><%= post.title %></h4>
+    <br>
+    <%= post.body %>
+    <br><br>
+    <div class='quiet'>
+      Created at: <%= post.created_at %>
+    </div>
+  </div>
+<% end %>

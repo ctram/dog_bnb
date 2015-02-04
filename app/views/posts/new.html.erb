@@ -1,0 +1,20 @@
+<!-- <#% binding.pry %> -->
+<h3>Create a new Post</h3>
+
+<% if !@post.errors.full_messages.empty? %>
+  <% @post.errors.full_messages.each do |msg| %>
+    <div class='alert'>
+      <%= msg %>
+    </div>
+  <% end %>
+<% end %>
+
+
+<%= form_for @post do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :body %>
+  <%= f.text_area :body %>
+  <br>
+  <%= f.submit 'Submit', class:'btn' %>
+<% end %>

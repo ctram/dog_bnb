@@ -1,0 +1,17 @@
+<!-- <#% binding.pry %> -->
+<h3>Posts</h3>
+
+<% @posts.reverse.each do |post| %>
+  <% full_name = post.user.first_name + ' ' + post.user.last_name %>
+  <div class='well'>
+    <b style='font-size:150%'><%= link_to full_name, user_path(post.user) %></b> says:
+      <br><br>
+      <h4><%= post.title %></h4>
+      <br>
+      <%= post.body %>
+      <br><br>
+      <div class='quiet'>
+        Created at: <%= post.created_at %>
+      </div>
+  </div>
+<% end %>

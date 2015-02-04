@@ -1,0 +1,9 @@
+<h3>Categories</h3>
+
+<% @cats.sort.each do |cat| %>
+  <ul>
+    <li>
+      <%= cat.name %>
+    </li>
+  </ul>
+<% end %>
