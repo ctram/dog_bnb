@@ -1,6 +1,19 @@
 <!-- <#% binding.pry %> -->
 <h3>Posts</h3>
 
+<p><br><BR>
+  <a style='font-size:200%' href="#" onclick="this.style.backgroundColor='#990000'">Paint it red</a><br><BR>
+
+
+    <a style='font-size:150%' href="#" onclick="paintIt(this, '#990000')">Paint it red</a>
+
+
+
+</p>
+
+
+
+
 <% @posts.reverse.each do |post| %>
   <% full_name = post.user.first_name + ' ' + post.user.last_name %>
   <div class='well'>
@@ -15,3 +28,6 @@
       </div>
   </div>
 <% end %>
+
+<br>
+<br>
