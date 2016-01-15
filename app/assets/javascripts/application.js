@@ -16,6 +16,7 @@
 //= require_tree .
 //= require bootstrap
 
+<<<<<<< HEAD
 asdasd
 as
 da
@@ -45,3 +46,32 @@ asdasd
 asd
 as
 dasd
+=======
+
+as
+das
+d
+asd
+as
+dasd
+sad
+
+as
+da
+sd
+asd
+asd
+a
+ds
+
+asd
+asd
+asd
+asd
+sas
+do {
+
+} while (asd
+as
+ds);
+>>>>>>> split
