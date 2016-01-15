@@ -15,3 +15,12 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+
+
+as
+das
+d
+asd
+as
+dasd
+sad
