@@ -37,4 +37,9 @@ asd
 asd
 asd
 asd
-s
+sas
+do {
+
+} while (asd
+as
+ds);
