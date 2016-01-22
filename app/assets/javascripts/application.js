@@ -62,9 +62,13 @@ asdasdasd
 asdasdasdasd
 asd
 <<<<<<< HEAD
+<<<<<<< HEAD
 asdasdsds
 =======
 asd
+=======
+asdasdasdsd
+>>>>>>> fr split2
 a
 sd
 <<<<<<< HEAD
