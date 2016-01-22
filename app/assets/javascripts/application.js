@@ -15,39 +15,3 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
-
-
-as
-das
-d
-asd
-as
-dasd
-sad
-
-as
-da
-sd
-asd
-asd
-a
-ds
-
-asd
-asd
-asdasd
-asd
-asd
-asdasdasd
-s
-dasd
-asd
-ass
-asd
-asd
-sas
-do {
-
-} while (asd
-as
-ds);
