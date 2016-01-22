@@ -18,34 +18,6 @@
 <<<<<<< HEAD
 
 <<<<<<< HEAD
-asdasd
-as
-da
-sd
-asd
-sad
-
-
-a
-sd
-asd
-as
-dasd
-asd
-asd
-
-asdasd
-asdasdasd
-asdasdasd
-
-asdasdasdasd
-asd
-asdasdsds
-asdasd
-asd
-as
-dasd
-=======
 
 as
 das
@@ -54,14 +26,57 @@ asd
 as
 dasd
 sad
-
+asdasds
 as
 da
 sd
 asd
 asd
 a
-ds
+dsasdasdsd
+<<<<<<< HEAD
+=======
+asdasd
+as
+da
+sd
+asd
+sad
+
+
+a
+sd
+asd
+as
+dasd
+asd
+asd
+
+asdasd
+asdasdasd
+asdasdasd
+<<<<<<< HEAD
+>>>>>>> 343434
+=======
+
+asdasdasdasd
+asd
+<<<<<<< HEAD
+asdasdsds
+=======
+asd
+a
+sd
+<<<<<<< HEAD
+>>>>>>> asd
+=======
+>>>>>>> fr split1
+asdasd
+asd
+as
+dasd
+>>>>>>> asdasd
+=======
 
 asd
 asd
@@ -70,15 +85,21 @@ asd
 asd
 asdasdasd
 s
-ds
+dasd
+asd
+ass
 asd
 asd
+<<<<<<< HEAD
+s
+>>>>>>> asdasd
+=======
 sas
 do {
 
 } while (asd
 as
 ds);
->>>>>>> split
+>>>>>>> asdasd
 =======
->>>>>>> split
+>>>>>>> asd
