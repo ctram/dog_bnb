@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 asdasd
@@ -80,4 +81,6 @@ do {
 } while (asd
 as
 ds);
+>>>>>>> split
+=======
 >>>>>>> split
